@@ -1,0 +1,69 @@
+/* Style for body */
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for main */
+main {
+    margin: 50px auto;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+}
+
+/* Style for h1 */
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Style for label */
+label {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Style for textarea */
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+}
+
+/* Style for info class */
+.info {
+    font-style: italic;
+    font-size: 14px;
+}
+
+/* Style for checkbox */
+input[type=checkbox] {
+    margin-right: 10px;
+}
+
+/* Style for button */
+button[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style for button when disabled */
+button[type=submit]:disabled {
+    background-color: #ddd;
+    color: #666;
+    cursor: not-allowed;
+}
